@@ -1,4 +1,4 @@
-formatter = " %r %r %r %r"
+formatter = " %r %r %r %s"
 
 print formatter % (1, 2, 3, 4)
 print formatter % ('One', 'Two', 'Three', 'Four')
