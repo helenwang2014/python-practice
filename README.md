@@ -8,13 +8,13 @@ git add
 Escape Sequence
 \\ backslash (\)
 \' single slash (')
-\" double slash (")
-\a ASCII bell (BEL) 
-\b ASCII backspace (BS)
-\f ASCII formfeed (FF)
-\n ASCII linefeed (LF)
-\N{name} Character named name  the unicode database (Unicode only)  
-\r ASCII Carriage Return (CR)
+\" double slash (")\n
+\a ASCII bell (BEL)\n 
+\b ASCII backspace (BS)\n
+\f ASCII formfeed (FF)\n
+\n ASCII linefeed (LF)\n
+\N{name} Character named name  the unicode database (Unicode only)\n  
+\r ASCII Carriage Return (CR)\n
 \t ASCII Horizontal Tab (TAB)
 \uxxxx Character with 16-bit hex value xxxx (Unicode only)
 \Uxxxxxxxx Character with 32-bit hex value xxxxxxxx (Unicode only)
