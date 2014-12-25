@@ -6,7 +6,7 @@ Repository to hold my Python practice codes, I am following the tutorials from "
 git add 
 
 Escape Sequence
-\\\\ backslash (\\)
+\\ backslash (\\)
 \' single slash (')
 \" double slash (")
 \a ASCII bell (BEL)
