@@ -1,0 +1,1 @@
+hello world!/nglad to know how to write a file in python now./n

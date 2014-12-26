@@ -1,17 +1,17 @@
 from sys import argv
 script, user_name = argv
-prompt = '>'
+please_input = '"   "'
 
 print "Hi %s, I'm the %s script." % (user_name, script)
 print "I'd like to ask you a few questions."
 print "Do you like me %s?" % user_name
-likes = raw_input(prompt)
+likes = raw_input(please_input)
 
 print "Where do you live %s?" % user_name
-lives = raw_input(prompt)
+lives = raw_input(please_input)
 
 print "What kind of computer do you have %s ?" % user_name
-computer = raw_input(prompt)
+computer = raw_input(please_input)
 
 print """
 Alright, so you said %r about liking me. 

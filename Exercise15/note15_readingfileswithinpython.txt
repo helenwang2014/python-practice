@@ -1,0 +1,26 @@
+Reading and Writing files in Python:
+
+In Python, you don't need to import library to read and write files.
+The first step is to get a file object.
+The way to do this is to use the open function.
+
+file_object = open(filename, mode)
+
+
+
+The modes can be:
+
+'r' when the file will only be read
+
+'w' for only writing (an existing file with the same name will be erased)
+
+'a' opens the file for appending; any data written to the file is automatically
+added to the end. 
+
+'r+' opens the file for both reading and writing.
+
+>>> f = open('filename', 'w')
+>>> print f.read()
+
+
+

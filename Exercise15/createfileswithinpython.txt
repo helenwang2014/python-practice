@@ -1,0 +1,23 @@
+Create a text file
+
+Let's first create a new text file. You can name it anything you like,
+in this example we will name it "newfile.txt".
+
+file = open("newfile.txt", "w")
+
+file.write("hello world in the new file\n")
+
+file.write("and another line\n")
+
+file.close()
+
+If we now look in the newfile.txt, we can see the text that we wrote:
+
+
+$ cat newfile.txt 
+hello world in the new file
+and another line
+
+http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python
+
+ 
