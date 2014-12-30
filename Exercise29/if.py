@@ -1,3 +1,6 @@
+# if-statement: "If this boolean expression is True, 
+# then run the code under it, otherwise skip it."
+
 people = 20
 cats = 30
 dogs = 15
