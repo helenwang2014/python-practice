@@ -63,7 +63,7 @@ print '_' * 10
 state = states.get('Texas')
 
 if not state:
-	print "Sorry, no Texas."
+	print "Sorry."
 
 # get a city with a default value
 city = cities.get('TX', 'Does not Exist')
